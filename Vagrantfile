@@ -5,7 +5,7 @@
 #required_plugins.each do |plugin|
 #  system "vagrant plugin install #{plugin}" unless Vagrant.has_plugin? plugin
 #end
-# Emanuel Chalela	
+
 VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
@@ -38,6 +38,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	chown -R ucu /home/ucu/.ssh
 	chmod 600 /home/ucu/.ssh/id_rsa
 	SHELL
-
+# Emanuel Chalela
 end
 
